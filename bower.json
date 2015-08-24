@@ -1,0 +1,6 @@
+{
+  "name": "Laminate Dropdown",
+  "dependencies": {
+    "chosen_v1.1.0": "https://github.com/koenpunt/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip"
+  }
+}

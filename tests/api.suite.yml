@@ -1,0 +1,14 @@
+class_name: ApiTester
+modules:
+    enabled:
+        - \Helper\Api
+        - Laravel5
+        - REST
+        - Db
+
+    config:
+        Laravel5:
+           cleanup: false
+        REST:
+           depends: PhpBrowser
+           url: http://localhost/api
